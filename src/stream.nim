@@ -6,7 +6,6 @@
 ## 0x3    Server-Initiated, Unidirectional
 
 
-
 type
   StreamKind = enum
     CIB = 0, SIB = 1, CIU = 2, SIU = 3
