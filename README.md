@@ -1,4 +1,4 @@
 # windx
-A http server written in Nim. \
-Intend to implement QUIC Protocol. \
-Based on draft-ietf-quic-transport-23.
+QUIC Protocol written in Nim. \
+Based on draft-ietf-quic-transport-23. \
+Still in development.

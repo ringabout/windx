@@ -4,7 +4,7 @@
 ## 0x1    Server-Initiated, Bidirectional
 ## 0x2    Client-Initiated, Unidirectional
 ## 0x3    Server-Initiated, Unidirectional
-
+import types
 
 type
   StreamKind = enum
@@ -13,4 +13,12 @@ type
     id*: int64
 
 
-echo StreamKind.CIB.int == 0
+
+proc initStream(stream: Stream) = 
+  discard
+
+proc addFrame(stream: Stream) = 
+  discard
+
+
+
