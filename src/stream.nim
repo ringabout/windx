@@ -10,6 +10,7 @@ type
   StreamKind = enum
     CIB = 0, SIB = 1, CIU = 2, SIU = 3
   Stream* = ref object
+    id*: int64
 
 
 echo StreamKind.CIB.int == 0
