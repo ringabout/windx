@@ -7,18 +7,17 @@
 import types
 
 type
-  StreamKind = enum
+  StreamKind* = enum
     CIB = 0, SIB = 1, CIU = 2, SIU = 3
   Stream* = ref object
     id*: int64
 
 
 
-proc initStream(stream: Stream) = 
+proc initStream*(stream: Stream) = 
   discard
 
-proc addFrame(stream: Stream) = 
+proc addFrame*(stream: Stream) = 
   discard
-
 
 
